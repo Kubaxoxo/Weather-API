@@ -1,0 +1,98 @@
+body {
+    background: url("https://images7.alphacoders.com/598/thumb-1920-598110.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .card {
+    width: 940px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 10px;
+    position: relative;
+    margin: 0 auto;
+    top: 90px;
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .search{
+    text-align: center;
+    margin: 30px auto;
+  }
+  
+  button{
+    background: #e7e7e7;
+    border: none;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    margin: 0.5em;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 2.5em;
+    width: 2.5em;
+    cursor: pointer;
+  }
+  
+  .search .search-bar[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.781);
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    border-radius: 50px;
+    color: #fff;
+  }
+  
+  img {
+    width: 70px;
+  }
+  
+  h1 {
+      font-size: 50px;
+      margin-top: 2px;
+  }
+
+  h1.temp {
+    margin: 0;
+    margin-bottom: 0.4em;
+  }
+
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    margin: 0;
+  }
+  
+  .weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+  }
+  
+  .weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+
+  .icon{
+    margin-left: 36%;
+  }
+
+  .humidity{
+    padding: 20px;
+  }
